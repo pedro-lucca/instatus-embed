@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const fetcher = (url) => axios.get(url).then((res) => res.data)
 
-export const ExampleComponent = ({
+export const InstatusUptime = ({
   InstatusUrl,
   FailedMessage,
   LoadingMessage,
