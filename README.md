@@ -15,12 +15,23 @@ npm install --save instatus-embed
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'instatus-embed'
-import 'instatus-embed/dist/index.css'
+import InstatusUptime from 'instatus-embed'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <InstatusUptime
+        InstatusUrl="https://yoloo-help.instatus.com/summary.json"
+        FailedMessage="failed to load"
+        LoadingMessage="loading..."
+        UpMessage="Todos os sistemas operacionais"
+        UpColor="#00ff00"
+        HasIssuesMessage="Interrupção parcial"
+        HasIssuesColor="#ff0000"
+        UnderMaintenanceMessage="Manutenção agendada"
+        UnderMaintenanceColor="#0000ff"
+      />
+    )
   }
 }
 ```
