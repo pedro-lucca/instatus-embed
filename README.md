@@ -21,14 +21,14 @@ class Example extends Component {
   render() {
     return (
       <InstatusUptime
-        InstatusUrl="https://yoloo-help.instatus.com/summary.json"
+        InstatusUrl="https://YOUR_SUBDOMAIN.instatus.com/summary.json"
         FailedMessage="failed to load"
         LoadingMessage="loading..."
-        UpMessage="Todos os sistemas operacionais"
+        UpMessage="All System Operational"
         UpColor="#00ff00"
-        HasIssuesMessage="Interrupção parcial"
+        HasIssuesMessage="Have some issues"
         HasIssuesColor="#ff0000"
-        UnderMaintenanceMessage="Manutenção agendada"
+        UnderMaintenanceMessage="Schedule Maintenance"
         UnderMaintenanceColor="#0000ff"
       />
     )
