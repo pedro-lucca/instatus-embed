@@ -39,6 +39,7 @@ export const InstatusUptime = ({
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
+              style={{ marginRight: '1rem' }}
             >
               <circle cx='8' cy='8' r='8' />
             </svg>
@@ -55,6 +56,7 @@ export const InstatusUptime = ({
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
+              style={{ marginRight: '1rem' }}
             >
               <circle cx='8' cy='8' r='8' />
             </svg>
@@ -71,6 +73,7 @@ export const InstatusUptime = ({
               height='1em'
               width='1em'
               xmlns='http://www.w3.org/2000/svg'
+              style={{ marginRight: '1rem' }}
             >
               <circle cx='8' cy='8' r='8' />
             </svg>
