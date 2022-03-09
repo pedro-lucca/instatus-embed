@@ -1,7 +1,12 @@
 {
   "name": "instatus-embed",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Web component to show/embed page status, using instatus api and swr",
+  "keywords": [
+    "instatus",
+    "status",
+    "instatus-embed"
+  ],
   "author": "petrolins",
   "license": "MIT",
   "repository": "petrolins/instatus-embed",
