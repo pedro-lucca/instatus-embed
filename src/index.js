@@ -22,33 +22,57 @@ export const InstatusUptime = ({
   return (
     <div
       style={{
-        padding: '1em'
+        paddingLeft: '1rem',
+        paddingRight: '1rem',
+        paddingTop: '0.75rem',
+        paddingBottom: '0.75rem'
       }}
     >
       <a href={data.page.url} target='_blank' rel='noopener noreferrer'>
         {data.page.status === 'UP' && (
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <svg height='50' width='50'>
-              <circle cx='25' cy='25' r='20' fill={UpColor} />
-              Sorry, your browser does not support inline SVG.
+            <svg
+              stroke='currentColor'
+              fill={UpColor}
+              viewBox='0 0 16 16'
+              aria-hidden='true'
+              height='1em'
+              width='1em'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <circle cx='8' cy='8' r='8' />
             </svg>
             <p>{UpMessage}</p>
           </div>
         )}
         {data.page.status === 'HASISSUES' && (
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <svg height='50' width='50'>
-              <circle cx='25' cy='25' r='20' fill={HasIssuesColor} />
-              Sorry, your browser does not support inline SVG.
+            <svg
+              stroke='currentColor'
+              fill={HasIssuesColor}
+              viewBox='0 0 16 16'
+              aria-hidden='true'
+              height='1em'
+              width='1em'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <circle cx='8' cy='8' r='8' />
             </svg>
             <p>{HasIssuesMessage}</p>
           </div>
         )}
         {data.page.status === 'UNDERMAINTENANCE' && (
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <svg height='50' width='50'>
-              <circle cx='25' cy='25' r='20' fill={UnderMaintenanceColor} />
-              Sorry, your browser does not support inline SVG.
+            <svg
+              stroke='currentColor'
+              fill={UnderMaintenanceColor}
+              viewBox='0 0 16 16'
+              aria-hidden='true'
+              height='1em'
+              width='1em'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <circle cx='8' cy='8' r='8' />
             </svg>
             <p>{UnderMaintenanceMessage}</p>
           </div>

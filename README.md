@@ -15,7 +15,7 @@ npm install --save instatus-embed
 ```jsx
 import React, { Component } from 'react'
 
-import InstatusUptime from 'instatus-embed'
+import { InstatusUptime } from 'instatus-embed'
 
 class Example extends Component {
   render() {
