@@ -32,7 +32,6 @@ export const InstatusUptime = ({
         {data.page.status === 'UP' && (
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <svg
-              stroke='currentColor'
               fill={UpColor}
               viewBox='0 0 16 16'
               aria-hidden='true'
@@ -49,7 +48,6 @@ export const InstatusUptime = ({
         {data.page.status === 'HASISSUES' && (
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <svg
-              stroke='currentColor'
               fill={HasIssuesColor}
               viewBox='0 0 16 16'
               aria-hidden='true'
@@ -66,7 +64,6 @@ export const InstatusUptime = ({
         {data.page.status === 'UNDERMAINTENANCE' && (
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <svg
-              stroke='currentColor'
               fill={UnderMaintenanceColor}
               viewBox='0 0 16 16'
               aria-hidden='true'
