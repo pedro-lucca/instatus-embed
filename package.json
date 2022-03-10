@@ -1,15 +1,15 @@
 {
   "name": "instatus-embed",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Web component to show/embed page status, using instatus api and swr",
   "keywords": [
     "instatus",
     "status",
     "instatus-embed"
   ],
-  "author": "petrolins",
+  "author": "Pedro Lucca",
   "license": "MIT",
-  "repository": "petrolins/instatus-embed",
+  "repository": "pedrolucca-me/instatus-embed",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
