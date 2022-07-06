@@ -1,10 +1,9 @@
 # instatus-embed
+[![Rate this package](https://badges.openbase.com/js/rating/instatus-embed.svg?token=z+5u9+DzHZpqxdGg8MAfn4RzBfGyIx95kWO8VN0GOfc=)](https://openbase.com/js/instatus-embed?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
 
 > Web component to show/embed page status, using instatus api and swr
 
 [![NPM](https://img.shields.io/npm/v/instatus-embed.svg)](https://www.npmjs.com/package/instatus-embed) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-[![Rate this package](https://badges.openbase.com/js/rating/instatus-embed.svg?style=openbase&token=z+5u9+DzHZpqxdGg8MAfn4RzBfGyIx95kWO8VN0GOfc=)](https://openbase.com/js/instatus-embed?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
 
 ## Install
 
